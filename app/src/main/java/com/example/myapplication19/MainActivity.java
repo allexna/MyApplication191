@@ -44,4 +44,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    public void onSettingsMenuClick(MenuItem item){
+        TextView infoTextView=findViewById(R.id.textView);
+        infoTextView.setText("Вы выбрали Settings вместо кота!");
+
+    }
 }
