@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication19</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cat">Кот</string>
+    <string name="action_cat_female">Кошка</string>
+    <string name="action_kitten">Котенок</string>
+    <string name="hello">Привет</string>
+
+</resources>
