@@ -8,8 +8,9 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         android:onClick="onSettingsMenuClick"
-        app:showAsAction="never"
+        app:showAsAction="ifRoom"
     />
+    <group android:checkableBehavior="single">
 
     <item
         android:id="@+id/action_cat1"
@@ -27,7 +28,8 @@
         android:id="@+id/action_cat3"
         android:orderInCategory="100"
         android:title="@string/action_kitten"
-        app:showAsAction="ifRoom"
+        app:showAsAction="never"
         />
+    </group>
 
 </menu>
